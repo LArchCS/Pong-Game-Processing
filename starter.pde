@@ -1,5 +1,6 @@
 // Pong Game
 // Starter Code
+// by Fan Di, 2017
 
 // how to win:
 // survive for 60 seconds without losing a ball
