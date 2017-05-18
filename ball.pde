@@ -114,6 +114,8 @@ class Ball {
     }
   }
   
+  // bouncing calculation
+  // http://stackoverflow.com/questions/21089959/detecting-collision-of-rectangle-with-circle
   boolean colliding(Paddle paddle) {
     int distX = Math.abs((int)position.x - (int)paddle.x - (int)paddle.w / 2);
     int distY = Math.abs((int)position.y - (int)paddle.y - (int)paddle.h / 2);
